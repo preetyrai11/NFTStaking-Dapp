@@ -1,0 +1,27 @@
+.icons{
+    display: inline-block;
+    font-size: 18px;
+    color: #000;
+    padding: 5px;
+    width: 35px;
+    height: 35px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 8px;
+    background-image: linear-gradient(to right, #fda4a2 0%, #faa266 51%, #f79f1c 100%);
+    box-shadow: 0px 3px 5px rgb(0 0 0 / 50%), inset 1px 4px 5px rgb(255 255 255 / 70%), inset -1px -4px 5px rgb(0 0 0 / 20%);
+    /* margin: 5px; */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@font-face {
+    font-family: Playfull;
+    src: url('/Font/Playfull-Regular.woff') format('woff2'),
+        url('/Font/Playfull-Regular.woff2') format('woff');
+}
+  
+.font_text{
+    font-family: Playfull;
+}

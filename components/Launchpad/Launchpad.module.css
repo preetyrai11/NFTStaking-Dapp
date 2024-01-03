@@ -1,0 +1,17 @@
+@font-face {
+    font-family: Playfull;
+    src: url('/Font/Playfull-Regular.woff') format('woff2'),
+        url('/Font/Playfull-Regular.woff2') format('woff');
+}
+  
+.font_text{
+    font-family: Playfull;
+}
+.bg_Launchpad{
+    /* background-size: cover; */
+    background-image: url(/assets/Images/partner.gif);
+    /* background-color: red; */
+    /* width: 100%; */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
